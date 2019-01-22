@@ -21,7 +21,7 @@ echo \
 
 
 # multiline command due to inline data using HERE document
-cat <<EndOfFile
+cat <<EndofFile
 This is a sample of multiline text data using a HERE document.
 You can indent this one if you wish, by disabling input tabs,
 but you still might not get what you want.
