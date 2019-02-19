@@ -12,6 +12,6 @@
 
 # roll the dice and display the result
 echo "
-You rolled two six sided dies and
+You rolled two six sided dies
 $(( RANDOM % 6 + 1)), $(( RANDOM % 6 + 1 )) were rolled
 "
