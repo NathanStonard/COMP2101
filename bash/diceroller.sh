@@ -14,4 +14,11 @@
 echo "
 You rolled two six sided dies
 $(( RANDOM % 6 + 1)), $(( RANDOM % 6 + 1 )) were rolled
+
+You also rolled five six sided die
+$(( RANDOM % 6 + 1)), $(( RANDOM % 6 + 1)), $(( RANDOM % 6 + 1)),
+$(( RANDOM % 6 + 1)), $(( RANDOM % 6 + 1)) were rolled
+
+You also rolled one twenty sided die
+$(( RANDOM % 20 + 1)) was rolled
 "
